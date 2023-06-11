@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7d8d92;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+#photoInputSide {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: 600px ;
+}
+#photoInputSide #photoSide {
+  border: 1px solid #000;
+  background-image: url(ocean-5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+#photoInputSide #inputSide {
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+}
+#photoInputSide #inputSide #reg {
+  width: 91%;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 6px 0;
+  border: none;
+  background: #004f74;
+  color: white;
+  font-size: 15px;
+}
+#photoInputSide #inputSide #reg:hover {
+  filter: drop-shadow(6px 8px 5px #011b4b);
+  letter-spacing: 5px;
+  transition: all ease 0.8s;
+}
+#photoInputSide #inputSide form {
+  width: 100%;
+}
+#photoInputSide #inputSide form .register {
+  margin-bottom: 60px;
+}
+#photoInputSide #inputSide form input {
+  font-size: 15px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding: 8px 2px;
+  border: 0.2px solid rgba(128, 128, 128, 0.493);
+}
+#photoInputSide #inputSide form i {
+  margin-right: 10px;
+}
+#photoInputSide #inputSide form .google {
+  margin-top: 60px;
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+  padding: 4px 0;
+  background: red;
+  color: white;
+  letter-spacing: 1px;
+}
+#photoInputSide #inputSide form .google:hover {
+  filter: drop-shadow(6px 8px 5px #520000);
+  letter-spacing: 5px;
+  transition: all ease 0.8s;
+}
+#photoInputSide #inputSide form .git {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+  padding: 4px 0;
+  background: #484848;
+  color: white;
+  letter-spacing: 1px;
+}
+#photoInputSide #inputSide form .git:hover {
+  filter: drop-shadow(6px 8px 5px #2e2e2e);
+  letter-spacing: 5px;
+  transition: all ease 0.8s;
+}
+#photoInputSide #inputSide form .facebook {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+  background: blue;
+  color: white;
+  padding: 4px 0;
+  letter-spacing: 1px;
+}
+#photoInputSide #inputSide form .facebook:hover {
+  filter: drop-shadow(6px 8px 5px #000938);
+  letter-spacing: 5px;
+  transition: all ease 0.8s;
+}

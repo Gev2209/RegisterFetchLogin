@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css.registerpage/style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Dancing+Script&family=Rubik+Iso&display=swap"
+            rel="stylesheet">
+        <title>WebPage</title>
+    </head>
+    <body>
+        <main>
+            <header class="gm">
+                <a href="">GM.Travel
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </a>
+                <span id="searchInput">
+                    <input type="text" placeholder="Search your place" id="search">
+                    <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </span>
+                <ul class="navList">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <div class="loginRegister">
+                        <span id="login" href="#">Log In</span>
+                        <span id="register" href="#">Register</span>
+                    </div>
+                </ul>
+           
+                <i class="fa-solid fa-bars" id="bar"></i>
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+
+                <ul class="bottomList">
+                    <li>
+                        <a class="btn" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a class="btn2" href="#">Register</a>
+                    </li>
+                    <li>
+                        <a class="btn3" href="#">Log in</a>
+                    </li>
+                </ul>
+            </header>
+
+            <section class="img_section">
+                <div id="blurSection">
+                <div id="img">
+                    <div id="center_text">
+                        <ul id="travelList">
+                            <li class="travel">Travel with us</li>
+                            <li class="second_text">
+                                <a href="https://onewaytour.com/ru/?gclid=CjwKCAjw1YCkBhAOEiwA5aN4AdYeRxAlArq0XRntxcpT7F6YrRtWrkmKDPsFk4J_fE8XSI08avdxRRoCIbEQAvD_BwE" target="_blank">Travel with us</a>
+                            </li>
+                        </ul>
+                    
+                        <div id="input-container">
+                            <span class="register"> <i class="fa-solid fa-address-card"></i> Register</span>
+                            <form id="form">
+                                <div>
+                                    <input class="input" required="required" type="text" placeholder="Please write your name">
+                                    <input class="input" type="email" placeholder="Email adress" id="email" onkeydown="validationRegister()">
+                                    <span id="text" ></span>
+                                    <input
+                                        class="inputPassword input"
+                                        type="password"
+                                        placeholder="Password"
+                                        name="password"
+                                        id="password">
+                                    <input
+                                        class="inputPassword input"
+                                        type="password"
+                                        placeholder="Confirm password"
+                                        id="password">
+                                    <button class="reg">Register</button>
+                                    <button class="sign" >Sign In</button>
+                                    <div class="googlefacebook">
+                                        <div class="page google">
+                                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <i class="fa-brands fa-google"></i> Sign up with GOOGLE</a>
+                                        </div>
+                                        <div class="page facebook">
+                                            <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f"></i> Sign up with FACEBOOK</a>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox"><input type="checkbox" id="check">Remember me
+                                        <a href="">Forgot your password?</a>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div id="login-container">
+                            <form id="loginForm">
+                                <span class="register2"> Log in</span>
+                                <div>
+                                    <input class="input" required="" type="email" placeholder="Please write your Email" id="Email" onkeydown="validationLogin()">
+                                    <span id="loginText"></span>
+                                     <div><input
+                                        class="inputPassword input"
+                                        type="password"
+                                        placeholder="Password"
+                                        name="password"
+                                        id="password"></div>
+                                        <button class="buttonLogin">Log in</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            
+            </section>
+            <section class="about">
+                <div class="img_2"></div>
+                <div class="center_info">
+                    <div class="box1">
+                    </div>
+                    <div class="box2">
+                        
+                    </div>
+                    <div class="box3">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./regist.js"></script>
+    </body>
+</html>

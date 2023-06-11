@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(125, 141, 146);
+}
+a {
+    color: #000;
+    text-decoration:none;
+}
+// *{
+//     border: 1px solid #000;
+// }
+#photoInputSide {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: 600px ;
+    
+    #photoSide{
+        border: 1px solid #000;
+        background-image: url(./ocean-5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+    }
+    #inputSide {
+        border: 1px solid #000000;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        #reg {
+            width: 91%;
+            border-radius: 20px;
+            cursor: pointer;
+            padding: 6px 0;
+            border: none;
+            background: #004f74;
+            color: white;
+            font-size: 15px;
+            &:hover {
+                filter: drop-shadow( 6px 8px 5px rgb(1, 27, 75));
+                letter-spacing: 5px;
+                transition: all ease .8s;
+             }
+        }
+        form {
+            .register {
+                margin-bottom: 60px;
+            }
+            width: 100%;
+            input {
+                font-size: 15px;
+                width: 90%;
+                border-radius: 20px;
+                padding-left: 20px;
+                padding: 8px 2px;
+                border: 0.2px solid rgba(128, 128, 128, 0.493);
+            }
+            i {
+                margin-right: 10px;
+            }
+            .google {
+                margin-top: 60px;
+                display: block;
+                margin: auto;
+                width: 90%;
+                border-radius: 20px;
+                padding: 4px 0;
+                background: red;
+                color: white;
+                letter-spacing: 1px;
+                &:hover {
+                   filter: drop-shadow( 6px 8px 5px rgb(82, 0, 0));
+                   letter-spacing: 5px;
+                   transition: all ease .8s;
+                }
+            }
+            .git {
+                display: block;
+                margin: auto;
+                width: 90%;
+                border-radius: 20px;
+                padding: 4px 0;
+                background: rgb(72, 72, 72);
+                color: white;
+                letter-spacing: 1px;
+                &:hover {
+                    filter: drop-shadow( 6px 8px 5px rgb(46, 46, 46));
+                    letter-spacing: 5px;
+                    transition: all ease .8s;
+                 }
+            }
+            .facebook {
+                display: block;
+                margin: auto;
+                width: 90%;
+                border-radius: 20px;
+                background: blue;
+                color: white;
+                padding: 4px 0;
+                letter-spacing: 1px;
+                &:hover {
+                    filter: drop-shadow( 6px 8px 5px rgb(0, 9, 56));
+                    letter-spacing: 5px;
+                    transition: all ease .8s;
+                 }
+            }
+        
+        }
+    }
+}
+
